@@ -1,29 +1,51 @@
 import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
+
 
 function AddressForm() {
   return (
-    <>
-      <Form.Group controlId="formFile" className="mb-3">
-        <Form.Label>Default file input example</Form.Label>
-        <Form.Control type="file" />
+    <div className='container mt-5'>
+      <Form.Group className="form mb-3">
+        <Form.Label>Shipping Name</Form.Label>
+        <Form.Control />
       </Form.Group>
-      <Form.Group controlId="formFileMultiple" className="mb-3">
-        <Form.Label>Multiple files input example</Form.Label>
-        <Form.Control type="file" multiple />
+      <Form.Group className="mb-3">
+        <Form.Label>Street Name</Form.Label>
+        <Form.Control  multiple />
       </Form.Group>
-      <Form.Group controlId="formFileDisabled" className="mb-3">
-        <Form.Label>Disabled file input example</Form.Label>
-        <Form.Control type="file" disabled />
+      <Form.Group className="mb-3">
+        <Form.Label>City</Form.Label>
+        <Form.Control/>
       </Form.Group>
-      <Form.Group controlId="formFileSm" className="mb-3">
-        <Form.Label>Small file input example</Form.Label>
-        <Form.Control type="file" size="sm" />
+      <Form.Group  className="mb-3">
+        <Form.Label>State/Province</Form.Label>
+        <Form.Control size="sm" />
       </Form.Group>
-      <Form.Group controlId="formFileLg" className="mb-3">
-        <Form.Label>Large file input example</Form.Label>
-        <Form.Control type="file" size="lg" />
+      <Form.Group  className="mb-3">
+        <Form.Label>Country</Form.Label>
+        <Form.Control size="lg" />
       </Form.Group>
-    </>
+      <Form.Group>
+
+      <Form.Check aria-label="check"/>
+      <Form.Label>
+        Save this as your default adress
+        </Form.Label>
+      </Form.Group>
+
+      <Form.Group>
+      <Button variant="secondary" size="lg">
+        Add Adress
+      </Button>
+      </Form.Group>
+
+      <div>
+        <a href="">Back</a> 
+
+        <a>Secure Connection</a> 
+      </div>
+
+    </div>
   );
 }
 
