@@ -6,24 +6,24 @@ function AddressForm() {
   return (
     <div className='container mt-5'>
       <Form.Group className="form mb-3">
-        <Form.Label>Shipping Name</Form.Label>
-        <Form.Control />
+        <Form.Label >Shipping Name</Form.Label>
+        <Form.Control placeholder="John Maker" />
       </Form.Group>
       <Form.Group className="mb-3">
         <Form.Label>Street Name</Form.Label>
-        <Form.Control  multiple />
+        <Form.Control  placeholder="123 Plae Grond Stret" />
       </Form.Group>
       <Form.Group className="mb-3">
         <Form.Label>City</Form.Label>
-        <Form.Control/>
+        <Form.Control placeholder="Vermont"/>
       </Form.Group>
       <Form.Group  className="mb-3">
         <Form.Label>State/Province</Form.Label>
-        <Form.Control size="sm" />
+        <Form.Control placeholder="California" />
       </Form.Group>
       <Form.Group  className="mb-3">
         <Form.Label>Country</Form.Label>
-        <Form.Control size="lg" />
+        <Form.Control placeholder="United States of America" />
       </Form.Group>
       <Form.Group>
 
