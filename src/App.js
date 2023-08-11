@@ -7,9 +7,8 @@ import CardDetails from './pages/CardDetails';
 function App() {
   return (
     <Router>
-      <div>Hello</div>
         <Switch>
-          <Route> 
+          <Route path="/"> 
             <CardDetails/>
           </Route>
         </Switch>
