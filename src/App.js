@@ -1,12 +1,21 @@
 import './App.css';
-import { Routes } from "Routes.js";
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import CardDetails from './pages/CardDetails';
 
 
 
 function App() {
   return (
-      <div>app</div>
-      // <Routes/>
+    <Router>
+      <div>Hello</div>
+        <Switch>
+          <Route> 
+            <CardDetails/>
+          </Route>
+        </Switch>
+    </Router>
+      
+      
   )
 }
 
