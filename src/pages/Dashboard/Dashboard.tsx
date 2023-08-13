@@ -1,5 +1,8 @@
 import { FunctionComponent, useCallback } from "react";
 import styles from "./Dashboard.module.css";
+import Bag from "../Bag/Bag";
+import ItemView from "../Item/ItemView";
+
 const Dashboard: FunctionComponent = () => {
   const onProductImageContainer1Click = useCallback(() => {
     // Please sync "Item-View" to the project
