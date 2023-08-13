@@ -28,7 +28,7 @@ function AddressForm() {
       </Form.Group>
       <Form.Group>
 
-      <Form.Check className="ms-auto" aria-label="check"/>
+      <Form.Check className="m-auto" aria-label="check"/>
       <Form.Label>
         Save this as your default adress
         </Form.Label>
