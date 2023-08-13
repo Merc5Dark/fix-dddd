@@ -1,17 +1,28 @@
 import { FunctionComponent, useCallback } from "react";
-import styles from "./Bag.module.css";
-const Bag: FunctionComponent = () => {
-  const onLogoContainerClick = useCallback(() => {
-    // Please sync "Dashboard" to the project
-  }, []);
+import { useHistory } from "react-router-dom";
+import Bag from "../pages/Bag"; 
+import ItemView from "../pages/itemview";
 
-  const onNavLinkContainerClick = useCallback(() => {
-    // Please sync "Dashboard" to the project
-  }, []);
+import styles from "./Dashboard.module.css";
 
-  const onButtonContainerClick = useCallback(() => {
-    // Please sync "Checkout" to the project
-  }, []);
+const Dashboard: FunctionComponent = () => {
+  const history = useHistory(); // Get the history object for navigation
+
+  const onProductImageContainer1Click = useCallback(() => {
+    // Navigate to the "Item-View" page or component
+    history.push("/item-view");
+  }, [history]);
+
+  const onButtonContainer8Click = useCallback(() => {
+    // Navigate to the "Bag" page or component
+    history.push("/bag");
+  }, [history]);
+
+  const onNavLinkContainer1Click = useCallback(() => {
+    // Navigate to the "Bag" page or component (same as the button)
+    history.push("/bag");
+  }, [history]);
+
 
   return (
     <div className={styles.bag}>

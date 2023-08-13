@@ -1,21 +1,29 @@
 import { FunctionComponent, useCallback } from "react";
+import { useHistory } from "react-router-dom"; // Import useHistory if using React Router
 import styles from "./ItemView.module.css";
+
 const ItemView: FunctionComponent = () => {
+  const history = useHistory(); // Get the history object for navigation
+
   const onButtonContainer1Click = useCallback(() => {
-    // Please sync "Bag" to the project
-  }, []);
+    // Navigate to the "Bag" page or component
+    history.push("/bag");
+  }, [history]);
 
   const onLogoContainerClick = useCallback(() => {
-    // Please sync "Dashboard" to the project
-  }, []);
+    // Navigate to "Dashboard" when logo is clicked
+    history.push("/");
+  }, [history]);
 
   const onNavLinkContainer1Click = useCallback(() => {
-    // Please sync "Dashboard" to the project
-  }, []);
+    // Navigate to "Dashboard" when navigation link is clicked
+    history.push("/");
+  }, [history]);
 
   const onNavLinkContainer2Click = useCallback(() => {
-    // Please sync "Bag" to the project
-  }, []);
+    // Navigate to the "Bag" page or component
+    history.push("/bag");
+  }, [history]);
 
   return (
     <div className={styles.itemView}>
