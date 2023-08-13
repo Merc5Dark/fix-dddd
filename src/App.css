@@ -48,3 +48,40 @@ padding: 32px;
 border-radius: 15px;
 gap: 16px;
 }
+
+.card-container {
+  width: 676px;
+  height: 198px;
+  top: 68px;
+  left: 382px;
+  padding: 8px;
+  border-radius: 13px;
+}
+
+.newcard-container {
+  width: 676px;
+  height: 658px;
+  top: 298px;
+  left: 382px;
+  padding: 32px;
+  border-radius: 15px;
+  gap: 16px;
+}
+
+.checkout-container {
+width: 871px;
+height: 1,818px;
+top: 56px;
+left: 102px;
+gap: 24px;
+}
+
+.ordersummary {
+width: 243px;
+height: 319px;
+top: 59px;
+left: 1075px;
+padding: 16px;
+border-radius: 12px;
+gap: 16px;
+}
