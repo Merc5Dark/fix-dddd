@@ -10,7 +10,7 @@ function CardDetails() {
             <h5>VISA ending in 2894</h5>
         </div>
 
-        <div className='newcard-container position-abselute shadow'>
+        <form className='newcard-container position-abselute shadow'>
             <h3>ADD A NEW CARD</h3>
             <Form.Group className="form mb-3">
                 <Form.Label >Cardholder Name</Form.Label>
@@ -49,7 +49,7 @@ function CardDetails() {
 
           
 
-        </div>
+        </form>
     </div>   
     );   
 }

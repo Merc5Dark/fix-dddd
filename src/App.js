@@ -8,16 +8,13 @@ import CardDetails from './pages/CardDetails';
 import Checkout from './pages/Checkout';
 
 
-
-
-
 function App() {
   return (
     <Router>
         <Switch>
           <Route exact path="/"> 
           </Route>
-          <Route path="/adress">
+          <Route path="/address">
             <AddressForm/>
           </Route>
           <Route path="/bag">
