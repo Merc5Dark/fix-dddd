@@ -20,7 +20,7 @@ function Checkout() {
                     <h3>PAYMENT METHOD</h3>
                     {/* Write JS function to save and edit payment details */}
                     <div>card details</div>
-                    <Button className=' btn-dark' variant="btn" size="sm">
+                    <Button href="/payment" className=' btn-dark' variant="btn" size="sm">
                     Change
                    </Button>
                     <h5>$ 53.21 gift card balance</h5>

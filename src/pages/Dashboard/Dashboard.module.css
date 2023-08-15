@@ -1,4 +1,4 @@
-/* .label1 {
+.label1 {
     position: relative;
     letter-spacing: -0.02em;
   }
@@ -427,4 +427,4 @@
     color: var(--font-tertiary);
     font-family: var(--subtitle-normal-medium-normal);
   }
-   */
+  

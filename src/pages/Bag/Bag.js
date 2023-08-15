@@ -1,12 +1,16 @@
 // import React from "react";
 // import { useHistory } from "react-router-dom";
-// import Bag from "../pages/Bag";
-// import ItemView from "../pages/itemview";
+// import Bag from "./pages/Bag/Bag";
+// import ItemView from "../pages/Item/ItemView";
 
-// import styles from "./Dashboard.module.css";
+// import styles from "../pages/Bag/Bag.module.css";
+
+// import "../pages/Dashboard/Dashboard.module.css";
 
 // const Dashboard = () => {
 //   const history = useHistory(); // Get the history object for navigation
+
+
 
 //   const onProductImageContainer1Click = () => {
 //     // Navigate to the "Item-View" page or component
@@ -26,6 +30,10 @@
 
 
 //   return (
+
+
+
+
 //     <div className={styles.bag}>
 //       <div className={styles.contentFrame}>
 //         <div className={styles.header}>

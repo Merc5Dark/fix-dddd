@@ -6,13 +6,15 @@ import Dashboard from './pages/Dashboard/Dashboard';
 import Bag from './pages/Bag/Bag';
 import CardDetails from './pages/CardDetails';
 import Checkout from './pages/Checkout';
+import ItemView from './pages/Item/ItemView';
 
 
 function App() {
   return (
     <Router>
         <Switch>
-          <Route exact path="/"> 
+          <Route exact path="/itemview">
+            <ItemView/> 
           </Route>
           <Route path="/address">
             <AddressForm/>

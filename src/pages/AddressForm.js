@@ -1,12 +1,13 @@
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import InputGroup from 'react-bootstrap/InputGroup';
+
 import { useState } from 'react';
 
 
 
 
 function AddressForm() {
+
   const [validated, setValidated] = useState(false);
 
   const handleSubmit = (event) => {
@@ -112,7 +113,7 @@ function AddressForm() {
       <div>
         <a href="/">Back</a> 
        
-        <a> Secure Connection</a> 
+        <h5> Secure Connection</h5> 
       </div>
 
     </div>
