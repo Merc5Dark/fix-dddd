@@ -1,122 +1,79 @@
-// import React from "react";
-// import "./style.css";
+import React from "react";
+import "./style.css";
 
+import {
+  BagItem,
+  Button,
+  ItemInBag,
+  Navbar
+} from "../../components"; // Importing components
 
-// const Bag = () => {
-//   return (
-//     <div className="bag">
-//       <div className="bag-content">
-//         <div className="bag-header">
-//           <div className="bag-title">Check your Bag Items</div>
-//         </div>
-//         <div className="bag-items-container">
-//           <BagItems />
-//         </div>
-//         <img className="line" alt="Line" src="/img/line-1.png" />
-//         <NavbarComponent />
-//         <BagArea />
-//       </div>
-//     </div>
-//   );
-// };
+const Bag = () => {
+  return (
+    <div className="bag">
+      <div className="div-2">
+        <div className="content-frame">
+          <div className="header-2">
+            <div className="text-wrapper-5">Check your Bag Items</div>
+          </div>
+          <div className="bag-contents">
+            <ItemInBag
+              buttonIconNameMinus="/img/icon-32.png"
+              buttonIconNamePlus="/img/icon-31.png"
+              className="item-in-bag-instance"
+              productImageImage="/img/image-28.png"
+              productImageImageClassName="item-in-bag-2"
+              productImageName="dell-XPS-13-white"
+              productImageNameWatchClassName="design-component-instance-node"
+              text="Dell XPS 13"
+              text1="White"
+              text2="$ 1799.99"
+            />
+            {/* Additional ItemInBag components */}
+          </div>
+        </div>
+        <img className="line" alt="Line" src="/img/line-1.png" />
+        <Navbar
+          className="navbar-instance"
+          navLinksNavLinkIconNameBagHandle="/img/icon-28.png"
+          navLinksNavLinkIconNameStorefront="/img/icon-29.png"
+          navLinksNavLinkState="active"
+          navLinksNavLinkState1="default"
+          state="default"
+        />
+        <div className="bag-area">
+          <div className="title">
+            <div className="text-wrapper-6">Bag</div>
+          </div>
+          <div className="bag-items">
+            <div className="row">
+              {/* BagItem components */}
+            </div>
+            <div className="row">
+              {/* BagItem components */}
+            </div>
+          </div>
+          <div className="CTA">
+            <div className="total">
+              <div className="text-wrapper-7">Bag Total:</div>
+              <div className="text-wrapper-7">$ 5,849.93</div>
+            </div>
+            <Button
+              className="button-2"
+              expanded={false}
+              icon="start"
+              iconName="bag-handle"
+              iconNameBagHandle="/img/icon-26.png"
+              size="medium"
+              stateProp="default"
+              style="flat"
+              text="Checkout"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
 
-// const BagItems = () => {
-//   return (
-//     <div className="bag-items">
-//       <BagItemInstance
-//         productImageImage="/img/image-7.png"
-//         productImageName="dell-XPS-13-white"
-//         text="Dell XPS 13"
-//         text1="White"
-//         text2="$ 1799.99"
-//       />
-//       <BagItemInstance
-//         productImageName="iphone-12-pro-02"
-//         text="Iphone 11"
-//         text1="Navy Blue"
-//         text2="$ 729.99"
-//         text3="3"
-//       />
-//       {/* More BagItemInstance components */}
-//     </div>
-//   );
-// };
-
-// const BagItemInstance = ({
-//   productImageImage,
-//   productImageName,
-//   text,
-//   text1,
-//   text2,
-//   text3,
-// }) => {
-//   return (
-//     <ItemInBag
-//       buttonIconNameMinus="/img/icon-7.png"
-//       buttonIconNamePlus="/img/icon-6.png"
-//       className="item-in-bag-instance"
-//       productImageImage={productImageImage}
-//       productImageNameWatchClassName={`item-in-bag-${productImageName}`}
-//       text={text}
-//       text1={text1}
-//       text2={text2}
-//       text3={text3}
-//     />
-//   );
-// };
-
-// const NavbarComponent = () => {
-//   return (
-//     <Navbar
-//       className="navbar-instance"
-//       navLinksNavLinkIconNameBagHandle="/img/icon-3.png"
-//       navLinksNavLinkIconNameStorefront="/img/icon-4.png"
-//       navLinksNavLinkState="active"
-//       navLinksNavLinkState1="default"
-//       state="default"
-//     />
-//   );
-// };
-
-// const BagArea = () => {
-//   return (
-//     <div className="bag-area">
-//       <div className="bag-title">Bag</div>
-//       <BagItemSummaryRow />
-//       {/* More BagItemSummaryRow components */}
-//       <div className="CTA">
-//         <div className="total">
-//           <div className="text-wrapper-7">Bag Total:</div>
-//           <div className="text-wrapper-7">$ 5,849.93</div>
-//         </div>
-//         <ButtonComponent />
-//       </div>
-//     </div>
-//   );
-// };
-
-// const BagItemSummaryRow = () => {
-//   return (
-//     <div className="row">
-//       <BagItemInstance productImageName="iphone-12-01" text="Iphone 11" text1="Serious Black" text2="$ 619.99" text3="2" />
-//     </div>
-//   );
-// };
-
-// const ButtonComponent = () => {
-//   return (
-//     <Button
-//       className="button-2"
-//       expanded={false}
-//       icon="start"
-//       iconName="bag-handle"
-//       iconNameBagHandle="/img/icon-1.png"
-//       size="medium"
-//       stateProp="default"
-//       style="flat"
-//       text="Checkout"
-//     />
-//   );
-// };
-
-// export default Bag;
+export default Bag;

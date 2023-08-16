@@ -1,0 +1,110 @@
+.item-card {
+  align-items: flex-start;
+  border-radius: 22px;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 8px;
+  left: 16px;
+  overflow: hidden;
+  padding: 16px;
+  position: relative;
+}
+
+.item-card .product-image-wrapper {
+  align-items: center;
+  background-color: var(--uiwhite);
+  border-radius: 22px;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  overflow: hidden;
+  padding: 16px;
+  position: relative;
+}
+
+.item-card .content {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  padding: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.item-card .item-name {
+  color: var(--fontdark);
+  font-family: var(--body-normal-medium-normal-font-family);
+  font-size: var(--body-normal-medium-normal-font-size);
+  font-style: var(--body-normal-medium-normal-font-style);
+  font-weight: var(--body-normal-medium-normal-font-weight);
+  letter-spacing: var(--body-normal-medium-normal-letter-spacing);
+  line-height: var(--body-normal-medium-normal-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.item-card .small-description {
+  color: var(--fonttertiary);
+  font-family: var(--body-small-regular-condensed-font-family);
+  font-size: var(--body-small-regular-condensed-font-size);
+  font-style: var(--body-small-regular-condensed-font-style);
+  font-weight: var(--body-small-regular-condensed-font-weight);
+  letter-spacing: var(--body-small-regular-condensed-letter-spacing);
+  line-height: var(--body-small-regular-condensed-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.item-card .action {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  padding: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.item-card .element {
+  color: var(--fontdark);
+  font-family: var(--body-normal-medium-normal-font-family);
+  font-size: var(--body-normal-medium-normal-font-size);
+  font-style: var(--body-normal-medium-normal-font-style);
+  font-weight: var(--body-normal-medium-normal-font-weight);
+  letter-spacing: var(--body-normal-medium-normal-letter-spacing);
+  line-height: var(--body-normal-medium-normal-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.item-card .button-instance {
+  flex: 0 0 auto !important;
+  left: unset !important;
+  top: unset !important;
+}
+
+.item-card.potrait {
+  justify-content: center;
+  top: 16px;
+}
+
+.item-card.landscape {
+  top: 429px;
+}
+
+.item-card.potrait .product-image-wrapper {
+  width: 191.36px;
+}
+
+.item-card.landscape .product-image-wrapper {
+  width: 427px;
+}

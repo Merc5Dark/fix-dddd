@@ -1,0 +1,40 @@
+.nav-links {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 32px;
+  justify-content: center;
+  left: 16px;
+  padding: 16px;
+  position: relative;
+}
+
+.nav-links .logo-instance {
+  flex: 0 0 auto !important;
+  left: unset !important;
+  top: unset !important;
+}
+
+.nav-links .menu-icon {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 8px;
+  position: relative;
+}
+
+.nav-links .instance-node {
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+}
+
+.nav-links.state-1-expanded {
+  align-items: flex-start;
+  top: 317px;
+}
+
+.nav-links.state-1-default {
+  align-items: center;
+  top: 16px;
+}

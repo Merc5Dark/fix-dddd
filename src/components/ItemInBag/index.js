@@ -1,0 +1,1 @@
+export { ItemInBag } from "./ItemInBag";

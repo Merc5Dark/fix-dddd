@@ -1,0 +1,164 @@
+.input {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  left: 16px;
+  position: relative;
+  width: 268px;
+}
+
+.input .label {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 0px 8px;
+  position: relative;
+}
+
+.input .text-wrapper {
+  color: var(--fonttertiary);
+  font-family: var(--body-small-regular-condensed-font-family);
+  font-size: var(--body-small-regular-condensed-font-size);
+  font-style: var(--body-small-regular-condensed-font-style);
+  font-weight: var(--body-small-regular-condensed-font-weight);
+  letter-spacing: var(--body-small-regular-condensed-letter-spacing);
+  line-height: var(--body-small-regular-condensed-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.input .input-field {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--uiwhite);
+  border-radius: 13px;
+  box-shadow: 0px 4px 16px #1a1f1626;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  overflow: hidden;
+  padding: 8px 16px;
+  position: relative;
+  width: 100%;
+}
+
+.input .input-area {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 10px;
+  padding: 8px;
+  position: relative;
+}
+
+.input .input-text {
+  flex: 1;
+  margin-top: -1px;
+  position: relative;
+}
+
+.input .icon-instance {
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+}
+
+.input .div {
+  flex: 1;
+  margin-top: -1px;
+  position: relative;
+}
+
+.input.text.label-true.end {
+  top: 430px;
+}
+
+.input.text.none.label-true {
+  top: 232px;
+}
+
+.input.text.label-false.start {
+  top: 160px;
+}
+
+.input.placeholder.start.label-true {
+  top: 844px;
+}
+
+.input.text.start.label-true {
+  top: 331px;
+}
+
+.input.text.label-false.end {
+  top: 88px;
+}
+
+.input.text.label-false.none {
+  top: 16px;
+}
+
+.input.placeholder.label-false.start {
+  top: 673px;
+}
+
+.input.placeholder.none.label-true {
+  top: 745px;
+}
+
+.input.placeholder.label-true.end {
+  top: 943px;
+}
+
+.input.placeholder.label-false.none {
+  top: 529px;
+}
+
+.input.placeholder.label-false.end {
+  top: 601px;
+}
+
+.input.text .input-text {
+  color: var(--fontdark);
+  font-family: var(--body-normal-regular-normal-font-family);
+  font-size: var(--body-normal-regular-normal-font-size);
+  font-style: var(--body-normal-regular-normal-font-style);
+  font-weight: var(--body-normal-regular-normal-font-weight);
+  letter-spacing: var(--body-normal-regular-normal-letter-spacing);
+  line-height: var(--body-normal-regular-normal-line-height);
+}
+
+.input.placeholder .input-text {
+  color: var(--fontplaceholder);
+  font-family: var(--body-normal-medium-normal-font-family);
+  font-size: var(--body-normal-medium-normal-font-size);
+  font-style: var(--body-normal-medium-normal-font-style);
+  font-weight: var(--body-normal-medium-normal-font-weight);
+  letter-spacing: var(--body-normal-medium-normal-letter-spacing);
+  line-height: var(--body-normal-medium-normal-line-height);
+}
+
+.input.text .div {
+  color: var(--fontdark);
+  font-family: var(--body-normal-regular-normal-font-family);
+  font-size: var(--body-normal-regular-normal-font-size);
+  font-style: var(--body-normal-regular-normal-font-style);
+  font-weight: var(--body-normal-regular-normal-font-weight);
+  letter-spacing: var(--body-normal-regular-normal-letter-spacing);
+  line-height: var(--body-normal-regular-normal-line-height);
+}
+
+.input.placeholder .div {
+  color: var(--fontplaceholder);
+  font-family: var(--body-normal-medium-normal-font-family);
+  font-size: var(--body-normal-medium-normal-font-size);
+  font-style: var(--body-normal-medium-normal-font-style);
+  font-weight: var(--body-normal-medium-normal-font-weight);
+  letter-spacing: var(--body-normal-medium-normal-letter-spacing);
+  line-height: var(--body-normal-medium-normal-line-height);
+}

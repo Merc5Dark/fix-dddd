@@ -1,0 +1,226 @@
+.button {
+  align-items: center;
+  display: inline-flex;
+  gap: 8px;
+  justify-content: center;
+  left: 16px;
+  overflow: hidden;
+  position: relative;
+}
+
+.button .text-wrapper {
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.button .class {
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+}
+
+.button .class-2 {
+  height: 18px !important;
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+  width: 18px !important;
+}
+
+.button .div {
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.button.expanded-0-false {
+  padding: 8px 24px;
+}
+
+.button.style-border {
+  border: 1px solid;
+  border-color: var(--uidark);
+}
+
+.button.state-0-hover {
+  box-shadow: 0px 4px 16px #1a1f1633;
+}
+
+.button.medium {
+  border-radius: 14px;
+}
+
+.button.expanded-0-true {
+  padding: 8px;
+}
+
+.button.style-flat {
+  background-color: var(--uidark);
+}
+
+.button.style-border.start {
+  top: 174px;
+}
+
+.button.style-text.small {
+  top: 230px;
+}
+
+.button.none.medium {
+  top: 16px;
+}
+
+.button.style-text.start {
+  top: 230px;
+}
+
+.button.expanded-0-false.small {
+  border-radius: 11px;
+}
+
+.button.expanded-0-true.small {
+  border-radius: 9px;
+}
+
+.button.none.small.style-flat {
+  top: 72px;
+}
+
+.button.start.style-icon.medium {
+  top: 281px;
+}
+
+.button.style-border.none.small {
+  top: 123px;
+}
+
+.button.state-0-default.small.style-icon {
+  top: 438px;
+}
+
+.button.start.style-flat.medium {
+  top: 281px;
+}
+
+.button.state-0-hover.expanded-0-false.small.style-icon {
+  top: 488px;
+}
+
+.button.state-0-hover.expanded-0-true.small.style-icon {
+  top: 589px;
+}
+
+.button.style-flat.state-0-default.start.expanded-0-true.small {
+  top: 388px;
+}
+
+.button.expanded-0-false.style-flat.state-0-default.start.small {
+  top: 337px;
+}
+
+.button.expanded-0-false.style-flat.state-0-hover.start.small {
+  top: 488px;
+}
+
+.button.small.style-flat.state-0-hover.start.expanded-0-true {
+  top: 539px;
+}
+
+.button.style-text .text-wrapper {
+  color: var(--fontdark);
+  text-decoration: underline;
+}
+
+.button.style-border .text-wrapper {
+  color: var(--fontdark);
+}
+
+.button.small .text-wrapper {
+  font-style: var(--body-small-regular-condensed-font-style);
+}
+
+.button.medium .text-wrapper {
+  font-family: var(--body-normal-medium-normal-font-family);
+  font-size: var(--body-normal-medium-normal-font-size);
+  font-style: var(--body-normal-medium-normal-font-style);
+  font-weight: var(--body-normal-medium-normal-font-weight);
+  letter-spacing: var(--body-normal-medium-normal-letter-spacing);
+  line-height: var(--body-normal-medium-normal-line-height);
+}
+
+.button.style-icon .text-wrapper {
+  color: var(--fontdark);
+}
+
+.button.style-flat .text-wrapper {
+  color: var(--fontwhite);
+}
+
+.button.small.style-flat .text-wrapper {
+  font-family: var(--body-small-regular-condensed-font-family);
+  font-size: var(--body-small-regular-condensed-font-size);
+  font-weight: var(--body-small-regular-condensed-font-weight);
+  letter-spacing: var(--body-small-regular-condensed-letter-spacing);
+  line-height: var(--body-small-regular-condensed-line-height);
+}
+
+.button.style-text.small .text-wrapper {
+  font-family: "Cabin", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.32px;
+  line-height: normal;
+}
+
+.button.small.style-icon .text-wrapper {
+  font-family: var(--body-small-regular-condensed-font-family);
+  font-size: var(--body-small-regular-condensed-font-size);
+  font-weight: var(--body-small-regular-condensed-font-weight);
+  letter-spacing: var(--body-small-regular-condensed-letter-spacing);
+  line-height: var(--body-small-regular-condensed-line-height);
+}
+
+.button.style-border.small .text-wrapper {
+  font-family: var(--body-small-regular-condensed-font-family);
+  font-size: var(--body-small-regular-condensed-font-size);
+  font-weight: var(--body-small-regular-condensed-font-weight);
+  letter-spacing: var(--body-small-regular-condensed-letter-spacing);
+  line-height: var(--body-small-regular-condensed-line-height);
+}
+
+.button.style-text .div {
+  color: var(--fontdark);
+}
+
+.button.style-border .div {
+  color: var(--fontdark);
+}
+
+.button.small .div {
+  font-family: var(--body-small-regular-condensed-font-family);
+  font-size: var(--body-small-regular-condensed-font-size);
+  font-style: var(--body-small-regular-condensed-font-style);
+  font-weight: var(--body-small-regular-condensed-font-weight);
+  letter-spacing: var(--body-small-regular-condensed-letter-spacing);
+  line-height: var(--body-small-regular-condensed-line-height);
+}
+
+.button.medium .div {
+  font-family: var(--body-normal-medium-normal-font-family);
+  font-size: var(--body-normal-medium-normal-font-size);
+  font-style: var(--body-normal-medium-normal-font-style);
+  font-weight: var(--body-normal-medium-normal-font-weight);
+  letter-spacing: var(--body-normal-medium-normal-letter-spacing);
+  line-height: var(--body-normal-medium-normal-line-height);
+}
+
+.button.style-icon .div {
+  color: var(--fontdark);
+}
+
+.button.style-flat .div {
+  color: var(--fontwhite);
+  margin-top: -1px;
+}

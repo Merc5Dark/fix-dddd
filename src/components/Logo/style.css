@@ -1,0 +1,96 @@
+.logo {
+  position: relative;
+}
+
+.logo .overlap-group {
+  position: relative;
+}
+
+.logo .union {
+  height: 9px;
+  left: 7px;
+  position: absolute;
+  top: 0;
+  width: 15px;
+}
+
+.logo .rectangle {
+  background-color: var(--uiaccent);
+  height: 22px;
+  left: 3px;
+  position: absolute;
+  top: 9px;
+  transform: rotate(10.7deg);
+  width: 19px;
+}
+
+.logo .rectangle-2 {
+  background-color: var(--uisuccess);
+  height: 22px;
+  left: 2px;
+  position: absolute;
+  top: 8px;
+  transform: rotate(10.7deg);
+  width: 19px;
+}
+
+.logo .overlap-group-2 {
+  height: 22px;
+  position: relative;
+  width: 16px;
+}
+
+.logo .img {
+  height: 6px;
+  left: 4px;
+  position: absolute;
+  top: 0;
+  width: 11px;
+}
+
+.logo .rectangle-3 {
+  background-color: var(--uiaccent);
+  height: 15px;
+  left: 2px;
+  position: absolute;
+  top: 6px;
+  transform: rotate(10.7deg);
+  width: 12px;
+}
+
+.logo .rectangle-4 {
+  background-color: var(--uisuccess);
+  height: 15px;
+  left: 1px;
+  position: absolute;
+  top: 5px;
+  transform: rotate(10.7deg);
+  width: 12px;
+}
+
+.logo.flat {
+  align-items: center;
+  background-color: var(--uiwhite);
+  border-radius: 4px;
+  display: inline-flex;
+  justify-content: center;
+  left: 12px;
+  padding: 8px;
+  top: 58px;
+}
+
+.logo.transparent {
+  height: 31px;
+  left: 16px;
+  top: 16px;
+  width: 24px;
+}
+
+.logo.flat .overlap-group {
+  height: 20.71px;
+  width: 16px;
+}
+
+.logo.transparent .overlap-group {
+  height: 33px;
+}
